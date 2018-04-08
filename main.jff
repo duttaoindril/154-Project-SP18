@@ -7,8 +7,27 @@
 			<x>215.0</x>&#13;
 			<y>310.0</y>&#13;
 			<initial/>&#13;
-			<final/>&#13;
 		</block>&#13;
+		<block id="1" name="q1">&#13;
+			<tag>Machine1</tag>&#13;
+			<x>355.0</x>&#13;
+			<y>309.0</y>&#13;
+		</block>&#13;
+		<!--The list of transitions.-->&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>1</to>&#13;
+			<read>~</read>&#13;
+			<write>~</write>&#13;
+			<move>R</move>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>1</to>&#13;
+			<read>!T</read>&#13;
+			<write>~</write>&#13;
+			<move>R</move>&#13;
+		</transition>&#13;
 		<!--The list of automata-->&#13;
 		<setup.jff>&#13;
 			<!--The list of states.-->&#13;
@@ -608,5 +627,6 @@
 			<Machine6/>&#13;
 			<Machine5/>&#13;
 		</setup.jff>&#13;
+		<Machine1/>&#13;
 	</automaton>&#13;
 </structure>
