@@ -6,6 +6,7 @@
 			<tag>Machine0</tag>&#13;
 			<x>52.0</x>&#13;
 			<y>340.0</y>&#13;
+			<initial/>&#13;
 		</block>&#13;
 		<block id="1" name="q1">&#13;
 			<tag>Machine1</tag>&#13;
