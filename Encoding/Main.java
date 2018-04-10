@@ -1,9 +1,9 @@
-package com.company;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
+
+//javac Main.java && java -cp . Main encode.jff > text.txt
 
 public class Main {
 
@@ -34,7 +34,7 @@ public class Main {
                             initialState = stateId;
                         }
                         if (i.contains("final")) {
-                            finalStates += stateId;
+                            finalStates += stateId+"0";
                         }
                     }
                 }
@@ -72,7 +72,7 @@ public class Main {
 
             }
 
-            encodedTM += "F" + finalStates;
+            encodedTM += "F" + finalStates.substring(0, finalStates.length()-1);
             System.out.println(encodedTM);
             sc.close();
         } catch (FileNotFoundException e) {
