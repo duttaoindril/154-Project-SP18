@@ -1,9 +1,9 @@
+package com.company;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
-
-//javac Main.java && java -cp . Main encode.jff > text.txt
 
 public class Main {
 
@@ -34,7 +34,10 @@ public class Main {
                             initialState = stateId;
                         }
                         if (i.contains("final")) {
-                            finalStates += stateId+"0";
+                            if (finalStates.length() == 0)
+                                finalStates += stateId;
+                            else
+                                finalStates += 0 + stateId;
                         }
                     }
                 }
@@ -72,7 +75,7 @@ public class Main {
 
             }
 
-            encodedTM += "F" + finalStates.substring(0, finalStates.length()-1);
+            encodedTM += "F" + finalStates;
             System.out.println(encodedTM);
             sc.close();
         } catch (FileNotFoundException e) {
@@ -82,7 +85,7 @@ public class Main {
 
     private static String symbolToUnary(String inputSymbol) {
         // handle blank
-        if (inputSymbol.equals("1")) {
+        if (inputSymbol.equals("empty")) {
             return "1";
         }
         if (!letterLookup.containsKey(inputSymbol)) {
@@ -96,7 +99,7 @@ public class Main {
         String returnValue;
         // blank (square) input
         if (input.contains("/>")) {
-            returnValue = "1";
+            returnValue = "empty";
         } else {
             // extract value between > and < if not a blank div
             returnValue = input.substring(input.indexOf(">") + 1, input.lastIndexOf("<"));
