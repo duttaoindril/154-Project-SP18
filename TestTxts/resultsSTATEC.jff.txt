@@ -1,0 +1,3 @@
+Input: 11S1101M11010110101 Output: (~) Result: Reject(Accept) 
+Input: 111S1101M11010110101 Output: (~) Result: Reject(Accept) 
+Input: 11S1101M1110101110101 Output: (~) Result: Reject(Accept) 
