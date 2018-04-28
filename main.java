@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main {
+public class main {
 
 	public static HashMap<String, String> letterLookup;
 	public static HashMap<String, String> statesSet;
 
 	public static void main(String[] args) throws FileNotFoundException {
-		File inputFile = new File("/Users/Katelynn/Documents/SJSU/3rdYear/SPRING18/CS154/Project/TMs/test11/test.jff");
+		File inputFile = new File("/Users/Katelynn/Documents/SJSU/3rdYear/SPRING18/CS154/Project/TMs/tests/1.jff");
 		try {
 			String encodedTM = "";
 			String notCodedδ = "";
@@ -76,8 +76,19 @@ public class Main {
 
 					read = symbolToUnary(read);
 					write = symbolToUnary(write);
-
-					move = (move.equals("R") ? "11" : "1");
+					
+					if (move.equals("R"))
+					{
+						move = "11";
+					}
+					else if(move.equals("L"))
+					{
+						move = "1";
+					}
+					else if(move.equals("S"))
+					{
+						move = "111";
+					}				
 
 					String encodedTransition = "D" + fromState + 0 + read + 0 + toState +
 							0 + write + 0 + move;
