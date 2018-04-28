@@ -1,262 +1,262 @@
-A 
-Infinite Loop
-A 
-A 
-R 
-R 
-R 
-R 
-R 
-A 
-R 
-Infinite Loop
-R 
-R 
-R 
-A 
-A 
-Infinite Loop
-R 
-R 
-R 
-Infinite Loop
-A 
-R 
-R 
-R 
-Infinite Loop
-R 
-A 
-Infinite Loop
-R 
-Infinite Loop
-A 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-R 
-R 
-R 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-A 
-A 
-A 
-A 
-Infinite Loop
-Infinite Loop
-R 
-A 
-A 
-Infinite Loop
-A 
-A 
-R 
-A 
-A 
-R 
-R 
-A 
-A 
-Infinite Loop
-A 
-R 
-R 
-A 
-R 
-A 
-A 
-A 
-R 
-Infinite Loop
-A 
-A 
-A 
-R 
-A 
-A 
-A 
-A 
-A 
-Infinite Loop
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-Infinite Loop
-R 
-R 
-A 
-R 
-Infinite Loop
-R 
-R 
-R 
-A 
-A 
-R 
-Infinite Loop
-A 
-A 
-A 
-R 
-R 
-Infinite Loop
-Infinite Loop
-R 
-R 
-Infinite Loop
-A 
-A 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-A 
-A 
-A 
-A 
-Infinite Loop
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-R 
-2T11110111011011101101110H 
-3T111101110110111011011101111011101101110110111011110111011011101101110H 
-4T111011101110H 
-5T1101101110H 
-6T111101111011110H 
-Infinite Loop
-A 
-9T111011110H 
-A 
-21T110110110110110110110110110110H 
-Infinite Loop
-A 
-R 
-A 
-R 
-R 
-R 
-R 
-R 
-R 
-Infinite Loop
-A 
-A 
-A 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-R 
-Infinite Loop
-Infinite Loop
-R 
-R 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-R 
-A 
-A 
-R 
-R 
-R 
-R 
-A 
-R 
-Infinite Loop
-R 
-R 
-Infinite Loop
-A 
-R 
-R 
-R 
-R 
-R 
-Infinite Loop
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-A 
-Infinite Loop
-R 
-A 
-A 
-R 
-R 
-A 
-R 
-R 
-A 
-Infinite Loop
-A 
-R 
-A 
-R 
-R 
-R 
-R 
-R 
-A 
-R 
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-Infinite Loop
-R 
-A 
-Infinite Loop
-R 
-A 
-A 
-A 
-A 
-A 
-Infinite Loop
-A 
-R 
-R 
-R 
-A 
-A 
-R 
-A 
-R 
-R 
-Infinite Loop
-R 
-R 
-A 
-R 
-R 
-A 
-A 
-R 
-R 
+A
+R
+A
+A
+R
+R
+R
+R
+R
+A
+R
+R
+R
+R
+R
+loop
+loop
+loop
+R
+R
+R
+A
+loop
+R
+R
+R
+loop
+R
+A
+A
+R
+A
+A
+loop
+A
+loop
+R
+R
+R
+R
+R
+A
+A
+A
+A
+A
+A
+loop
+R
+A
+A
+R
+A
+A
+R
+A
+A
+R
+R
+A
+A
+A
+A
+R
+R
+A
+R
+A
+A
+A
+R
+A
+A
+A
+A
+R
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+R
+R
+R
+A
+R
+loop
+R
+R
+R
+loop
+A
+R
+R
+A
+A
+A
+R
+loop
+loop
+A
+R
+loop
+R
+A
+A
+loop
+loop
+loop
+A
+A
+A
+A
+R
+A
+A
+A
+A
+A
+A
+A
+A
+A
+R
+2T11110111011011101101110H
+loop
+4T111011101110H
+5T1101101110H
+6T111101111011110H
+7TH
+A
+9T111011110H
+A
+21T110110110110110110110110110110H
+R
+A
+R
+A
+R
+R
+R
+R
+R
+R
+R
+A
+loop
+loop
+loop
+loop
+loop
+R
+loop
+loop
+loop
+R
+loop
+loop
+R
+R
+A
+A
+R
+R
+R
+R
+A
+R
+R
+R
+R
+loop
+loop
+R
+R
+R
+loop
+R
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+R
+R
+A
+A
+R
+R
+A
+R
+R
+A
+A
+A
+R
+A
+R
+R
+R
+R
+R
+A
+R
+loop
+loop
+loop
+loop
+loop
+loop
+loop
+loop
+loop
+loop
+loop
+R
+R
+A
+loop
+loop
+A
+A
+A
+A
+A
+R
+A
+R
+R
+R
+A
+A
+R
+A
+R
+R
+R
+R
+R
+A
+R
+R
+A
+A
+R
+R
