@@ -7,6 +7,7 @@
 			<x>52.0</x>
 			<y>146.0</y>
 			<initial/>
+			<final/>
 		</block>
 		<block id="1" name="q1">
 			<tag>Machine1</tag>
@@ -17,10 +18,30 @@
 			<tag>Machine2</tag>
 			<x>148.0</x>
 			<y>246.0</y>
-			<final/>
 		</block>
 		<!--The list of transitions.-->
 		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>a</read>
+			<write>a</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>b</read>
+			<write>b</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>c</read>
+			<write>c</write>
+			<move>R</move>
+		</transition>
+		<transition>
 			<from>2</from>
 			<to>0</to>
 			<read>a</read>
@@ -58,27 +79,6 @@
 		<transition>
 			<from>1</from>
 			<to>2</to>
-			<read>c</read>
-			<write>c</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>a</read>
-			<write>a</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>b</read>
-			<write>b</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
 			<read>c</read>
 			<write>c</write>
 			<move>R</move>
