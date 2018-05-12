@@ -10,7 +10,7 @@ public class main {
 	public static HashMap<String, String> statesSet;
 
 	public static void main(String[] args) throws FileNotFoundException {
-		File inputFile = new File("/Users/Katelynn/Documents/SJSU/3rdYear/SPRING18/CS154/Project/TMs/tests/1.jff");
+		File inputFile = new File(args[0]);
 		try {
 			String encodedTM = "";
 			String notCodedδ = "";
